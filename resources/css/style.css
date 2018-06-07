@@ -41,16 +41,105 @@ header{
   margin-left: auto;
   margin-right: auto;
 
+
 }
 .mission {
   background-color: black;
-  width: 1200px;
-  display: inline-block;
-  height: 130px;
-  
+  width: 100%;
+  max-height: 135px;
 
 }
 .mission h2,h4{
  text-align: center;
+ margin-bottom: 10px;
+ margin-top: 10px;
+}
+
+
+
+.teatable{
+  width: 1000px;
+
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 
 }
+.month{
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.teatable img{
+  height: 200px;
+  width: 300px;
+
+}
+.teaflavor{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.tea2{
+  display: flex;
+  padding-top: 15px;
+}
+.thirdtea{
+  padding-left: 175px;
+  padding-right: 25px;
+}       /* i couldn't figure out how to make them not have a large space inbetween the last 2 img's using justify-content without doing just doing that math and setting it that far apart*/
+.forthtea{
+  padding-left: 25px;
+  padding-right: 175px;
+}
+
+
+
+.contentlocation{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.locations{
+opacity: 1;
+text-align: center;
+margin-bottom: -20px; /* how do i align the div's to be in the center iv looked around but can't seem to find out which command iv forgetting(iv gone back through the flexbox lesson several times and thought it to be justify content and align items but i couldn't get it to work for me and be able to ajust the space inbetween them*/)
+padding-top: 3%;
+}
+.address{
+  display: flex;
+  flex-wrap: nowrap;
+  text-align: center;
+  line-height: 1.8;/* was this showed in the css leason i don't remember it but found it when i looked around, was i supossed to use something else or is this the best method*/
+  opacity: 1;
+}
+.downtown{
+  background-color: black;
+  width: 300px;
+  margin-left: 110px;
+  margin-right: 20px;
+}
+.East{
+  background-color: black;
+  width: 300px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.oakdale{
+  background-color: black;
+  width: 300px;
+  margin-left: 20px;
+  margin-right: 110px;
+}
+.footer{
+  text-align: center;
+  height: 200px;
+  margin-top: -20px; /* and is this how i should bring to items closer together or is there an more easy way to do so*/
+}
+.copyright{
+  text-align: left;
+  padding-left: 20px;
+}
+/* thanks=d */
